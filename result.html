@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <!-- Custom css by Laurenz Tolentino -->
+        <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/animation.css" media="screen,projection"/>
+    </head>
+
+    <body onload="showResult()">
+        <div class="container">
+            <div class="spacer-per-50"></div>
+            <div class="section">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="valign-wrapper fadeIn">
+                            <h1 id="result" class="valign font-6em flow-text floating">
+                                <!-- Name of store goes here -->
+                            </h1>
+                        </div>
+                        <div class="col s12">
+                            <div class="valign-wrapper">
+                                <span class="valign btext pulse">
+                                    <div id="comment">
+                                        <!-- Some sarcastic and insulting comment goes here -->
+                                    </div>                                    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="row"></div>                    
+                            <div class="row"></div>
+                            <div class="row">
+                                <div class="col s6 ">
+                                    <div class="valign-wrapper">
+                                        <a class="valign waves-effect waves-light btn z-depth-2" href=""
+                                           onclick="randomizeStore()">
+                                            <i class="mdi-hardware-keyboard-arrow-right right"></i>
+                                            The "Try Again" Button
+                                            <i class="mdi-hardware-keyboard-arrow-left left"></i>
+                                        </a>
+                                    </div>                                    
+                                </div>
+                                <div class="col s6 ">
+                                    <div class="valign-wrapper">
+                                        <a class="valign waves-effect waves-light btn z-depth-2
+                                                  red lighten-1" href="#">
+                                            <i class="mdi-hardware-keyboard-arrow-right right"></i>
+                                            The Ultimate Answer Thing
+                                            <i class="mdi-hardware-keyboard-arrow-left left"></i>
+                                        </a>
+                                    </div>
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/theoracle.js"></script>
+    </body>
+</html>
