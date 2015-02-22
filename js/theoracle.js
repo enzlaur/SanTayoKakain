@@ -28,7 +28,7 @@ function randomizeComment() {
             "Sabi kasi ng katabi ko yan ibigay sayong sagot", "Wait nasa Starbucks ako ngayon",
             "#NowShowing ang 'That Thing Called Tadhana' diyan", "Nakita ko to sa The Walking Dead",
             "Utang ka sa kaibigan mo", "Pede umutang kapag walang pera"
-        ]
+        ];
     var chosenNum = Math.floor((Math.random() * comments.length) + 1);
     if(chosenNum == comments.length) {
         chosenNum = 0;
