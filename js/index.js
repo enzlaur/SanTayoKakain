@@ -10,8 +10,8 @@ function randomizeComment() {
             "Kasi mas madaling sagutin to kaysa sa 'Saan May Parking'.",
             "Kasi alam mong may pasok ngayon kaya hindi mo magagamit si MayPasokBa.com.",
             "Gutom ka na noh?",
-            "Hail, Hail, Hail.",
-            "Animo La Salle!!!",
+            "Hail, Hail, Hail. So saan kakain?",
+            "Animo La Salle!!! Still does not answer saan parking",
             "SaanMayParking is still not available"
         ];
     var chosenNum = Math.floor((Math.random() * comments.length) + 1);

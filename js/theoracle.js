@@ -31,7 +31,7 @@ function randomizeComment() {
             "Utang ka sa kaibigan mo", "Pede umutang kapag walang pera", "Tanong mo narin if may parking sila",
             "Ingat ka, malandi yung waiter", "May upuan sila sa tabi ng table", "Ask mo sila sa WiFi password",
             "Bukas na ba yan?", "Mag ingat sa #FlyingIpis", "Dito yung 'Where do broken hearts go'", 
-            "Hindi ko pa napapanood yung TTCT"
+            "Hindi ko pa napapanood yung TTCT", "May promo sila na free seating pag nag order ka"
         ];
     var chosenNum = Math.floor((Math.random() * comments.length) + 1);
     if(chosenNum == comments.length) {
