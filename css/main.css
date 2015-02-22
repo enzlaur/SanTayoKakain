@@ -53,3 +53,20 @@ h1{
         font-size: 2.7em;
     }
 }
+
+.footer {
+    /* size */
+    width: 100%;
+    /* position */
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    /* font */
+    font-family: sans-serif;
+    font-weight: 100;
+    font-weight: lighter !important;
+    /* color */
+    background: rgb(19, 30, 36);
+    color: rgb(32, 44, 50);
+    
+}
