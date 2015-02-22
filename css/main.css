@@ -49,7 +49,7 @@ h1{
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 530px){
     .font-6em{
         font-size: 2.7em;
     }
