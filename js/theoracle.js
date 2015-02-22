@@ -11,7 +11,8 @@ function randomizeStore() {
             "Crazy Katsu", "Sumibiyakid's", "Xander's", "Rice Taft", "Gaiju", 
             "Bon Chon", "Flaming Wings", "Mang Inasal", "KFC", "Double Decker",
             "Time Out (sa UMall)", "Tapa King", "Tropical Hut", "Zark's Burgers", "Animo Biz",
-            "Jus and Jerry's", "Toribox"
+            "Jus and Jerry's", "Toribox", "Wingstop", "Mini Stop", "Family Mart", "Perico's",
+            "Yellow Cab", "Army Navy", "Ersao", "Wai Ying"
         ];
     var chosenNum = Math.floor((Math.random() * stores.length) + 1);
     if(chosenNum == stores.length) {
@@ -31,7 +32,8 @@ function randomizeComment() {
             "Utang ka sa kaibigan mo", "Pede umutang kapag walang pera", "Tanong mo narin if may parking sila",
             "Ingat ka, malandi yung waiter", "May upuan sila sa tabi ng table", "Ask mo sila sa WiFi password",
             "Bukas na ba yan?", "Mag ingat sa #FlyingIpis", "Dito yung 'Where do broken hearts go'", 
-            "Hindi ko pa napapanood yung TTCT", "May promo sila na free seating pag nag order ka"
+            "Hindi ko pa napapanood yung TTCT", "May promo sila na free seating pag nag order ka",
+            "Umorder ka na dito bago pa siya gawing isang yoga station"
         ];
     var chosenNum = Math.floor((Math.random() * comments.length) + 1);
     if(chosenNum == comments.length) {
