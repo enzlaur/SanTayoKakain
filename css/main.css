@@ -76,6 +76,15 @@ h1{
         font-size: 1.7em;
     }
 }
+@media screen and (device-aspect-ratio: 40/71) {
+    .font-6em{
+        font-size: 1.7em;
+    }
+    #result {
+        font-size: 1.7em;
+    }
+}
+
 .footer {
     /* size */
     width: 100%;
