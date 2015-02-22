@@ -13,7 +13,8 @@ function randomizeStore() {
             "Time Out (sa UMall)", "Tapa King", "Tropical Hut", "Zark's Burgers", "Animo Biz",
             "Jus and Jerry's", "Toribox", "Wingstop", "Mini Stop", "Family Mart", "Perico's",
             "Yellow Cab", "Army Navy", "Ersao", "Wai Ying", "Barn",
-            "Orange and Spices", "Chomp Chomp", "Samgyupsalamat", "Rap's Steak", "Exile", "Bagnet"
+            "Orange and Spices", "Chomp Chomp", "Samgyupsalamat", "Rap's Steak", "Exile", "Bagnet",
+            "Kenny Rogers"
         ];
     var chosenNum = Math.floor((Math.random() * stores.length) + 1);
     if(chosenNum == stores.length) {

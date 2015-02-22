@@ -68,6 +68,14 @@ h1{
     }
 }
 
+@media screen and (max-width: 300px){
+    .font-6em{
+        font-size: 1.7em;
+    }
+    #result {
+        font-size: 1.7em;
+    }
+}
 .footer {
     /* size */
     width: 100%;
