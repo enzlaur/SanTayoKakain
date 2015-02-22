@@ -68,7 +68,7 @@ h1{
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 250px){
     .font-6em{
         font-size: 1.7em;
     }
