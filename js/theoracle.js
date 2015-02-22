@@ -23,7 +23,7 @@ function randomizeStore() {
 function randomizeComment() {
     var comments = 
         [
-            "Well basta may pera ka", "Hindi mo afford yan? If hindi mo afford edi ang weak mo pards",
+            "Well basta may pera ka", 
             "Edi WOW", "Edi WOOOOOOW", "Naubusan na ata ako ng comments", "Dapat sarcastic comment to",
             "Nandyan kasi ako kanina", "Nandyan ako kahapon", "Siguro last week nandyan ako", 
             "Sabi kasi ng katabi ko yan ibigay sayong sagot", "Mas tipid diyan kaysa sa Starbucks",
